@@ -1,0 +1,109 @@
+.note-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #c9c9c9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-card:hover {
+    background: linear-gradient(toright, #c9c9c9, #333);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);.note-card {
+      border: 1px solid #666;
+      padding: 10px;
+      background-color: #c9c9c9;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .note-card:hover {
+      background: linear-gradient(to right, #c9c9c9, #333);
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-body {
+      padding: 20px;
+    }
+    
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      background-color: #f0f0f0; /* Lighter background for better contrast */
+    }
+    
+    .todo-app-border {
+      border: 2px solid #333;
+      padding: 10px;
+    }
+    
+    .input-border {
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .input-border:focus {
+      border-color: #66afe9;
+      box-shadow: 0 0 0 0.2rem rgba(102, 175, 233, 0.6);
+    }
+    
+    /* Additional styles for better contrast */
+    .card-title {
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .task-text {
+      font-size: 1.1rem;
+      color: #333;
+    }
+    
+    .completed {
+      background-color: #e9ecef;
+    }
+    
+    .completed .task-text {
+      color: #666;
+    }
+    
+    /* Add some animation to buttons on hover */
+    .btn-primary:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+    
+    .btn-danger:hover {
+      background-color: #c82333;
+      transform: scale(1.05);
+    }
+    
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ebebeb;
+  }
+  
+  .todo-app-border {
+    border: 2px solid #333;
+    padding: 10px;
+  }
+  
+  .input-border {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-border:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 0 0.2rem rgba(102, 175, 233, 0.6);
+  }
+  
