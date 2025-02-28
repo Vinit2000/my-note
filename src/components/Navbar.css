@@ -1,0 +1,94 @@
+/* Navbar Styling */
+.nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b, #ff7300, #ffba08);
+  background-size: 300% 300%;
+  animation: gradientBG 6s ease infinite;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Smooth Gradient Animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Dark Mode */
+.nav.dark {
+  background: linear-gradient(45deg, #6a11cb, #2575fc, #1d2671);
+  background-size: 300% 300%;
+  animation: gradientBG 6s ease infinite;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Bar */
+.nav-search {
+  width: 40%;
+  padding: 8px 15px;
+  border: 2px solid white;
+  border-radius: 25px;
+  outline: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-search::placeholder {
+  color: white;
+}
+
+.nav-search:focus {
+  border-color: yellow;
+  box-shadow: 0px 0px 10px yellow;
+}
+
+/* Dark Mode Search */
+.nav.dark .nav-search {
+  border-color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Navbar Links */
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+/* Dark Mode Toggle Button */
+.dark-toggle {
+  background: linear-gradient(135deg, #2da51e, #7e5adc);
+ 
+}
